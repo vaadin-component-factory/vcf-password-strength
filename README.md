@@ -3,7 +3,7 @@
 
 # &lt;vcf-password-strength&gt;
 
-[Live Demo ↗](https://vcf.app.fi/vcf-password-strength-demo/index.html)
+[Live Demo ↗](https://incubator.app.fi/vcf-password-strength-demo/index.html)
 
 [&lt;vcf-password-strength&gt;](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength) is a Web Component providing a strength indicator for a password field.
 
@@ -12,7 +12,7 @@
   </vcf-password-strength>
 ```
 
-[<img src="https://raw.githubusercontent.com/vaadin/vcf-password-strength/master/screenshot.gif" width="200" alt="Screenshot of vcf-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
+[<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of vcf-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
 
 
 ## Installation
