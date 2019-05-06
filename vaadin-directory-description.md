@@ -1,14 +1,7 @@
-# &lt;vcf-password-strength&gt;
+## Usage
+&lt;vcf-password-strength&gt; is a Web Component providing a strength indicator for a password field.
 
-[Live Demo ↗](https://vcf.app.fi/vcf-password-strength-demo/index.html)
+Add `<vcf-password-strength>` component to the page. Set attribute `strength` accordingly to calculated strength of password. 
 
-[&lt;vcf-password-strength&gt;](https://vaadin.com/directory/component/vaadinvcf-password-strength) is a Web Component providing a strength indicator for a password field.
-
-[<img src="https://raw.githubusercontent.com/vaadin/vcf-password-strength/master/screenshot.gif" width="200" alt="Screenshot of vcf-password-strength">](https://vaadin.com/directory/component/vaadinvcf-password-strength)
-
-## Example Usage
-
-```html
-  <vcf-password-strength strength="3">
-  </vcf-password-strength>
-```
+## Vaadin Prime
+This component is available in Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing

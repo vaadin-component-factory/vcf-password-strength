@@ -1,23 +1,24 @@
-[![Build Status](https://travis-ci.org/vaadin/vcf-password-strength.svg?branch=master)](https://travis-ci.org/vaadin/vcf-password-strength)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/web-components?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # &lt;vcf-password-strength&gt;
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/web-components?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
+
+&lt;vcf-password-strength&gt; is a Web Component providing a strength indicator for a password field.
 
 [Live Demo ↗](https://incubator.app.fi/password-strength-demo/password-strength)
 
-[&lt;vcf-password-strength&gt;](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength) is a Web Component providing a strength indicator for a password field.
+<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of vcf-password-strength">
+
+## Usage
+Add `<vcf-password-strength>` component to the page. Set attribute `strength` accordingly to calculated strength of password. 
 
 ```html
-  <vcf-password-strength strength="3">
-  </vcf-password-strength>
+  <vcf-password-strength strength="3"></vcf-password-strength>
 ```
-
-[<img src="https://raw.githubusercontent.com/vaadin/incubator-password-strength/master/screenshot.gif" width="200" alt="Screenshot of vcf-password-strength">](https://vaadin.com/directory/component/vaadin-component-factoryvcf-password-strength)
-
 
 ## Installation
 
-The Vaadin Component Factory components are distributed as Bower packages.
+This components is distributed as Bower packages.
 
 ### Polymer 2 and HTML Imports compatible version
 
@@ -86,8 +87,10 @@ We are using [ESLint](http://eslint.org/) for linting JavaScript code. You can c
   - Wait for response from one of Vaadin components team members
 
 
-## License
+# Vaadin Prime
+This component is available in Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing
 
+# License
 Commercial Vaadin Add-on License version 3 (CVALv3). For license terms, see LICENSE.
 
 Vaadin collects development time usage statistics to improve this product. For details and to opt-out, see https://github.com/vaadin/vaadin-usage-statistics.
