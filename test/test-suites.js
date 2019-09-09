@@ -1,3 +1,0 @@
-window.VcfPasswordStrengthSuites = [
-  'sample.html',
-];
