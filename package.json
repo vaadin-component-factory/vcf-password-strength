@@ -1,6 +1,6 @@
 {
   "name": "@vaadin-component-factory/vcf-password-strength",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vaadin Component Factory Password Strength for Polymer 3",
   "main": "theme/lumo/vcf-password-strength.js",
   "author": "Vaadin Ltd",
