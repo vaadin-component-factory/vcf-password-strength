@@ -9,6 +9,7 @@
 import { html, PolymerElement } from '@polymer/polymer/polymer-element';
 import { ThemableMixin } from '@vaadin/vaadin-themable-mixin';
 import { ElementMixin } from '@vaadin/vaadin-element-mixin';
+import '@vaadin/vaadin-license-checker/vaadin-license-checker';
 
 /**
  * `<vcf-password-strength>` is a template for vcf components.
@@ -92,6 +93,20 @@ class VcfPasswordStrength extends ElementMixin(ThemableMixin(PolymerElement)) {
       }
     };
   }
+
+  /**
+   * @protected
+   */
+  static _finalizeClass() {
+    super._finalizeClass();
+
+    const devModeCallback = window.Vaadin.developmentModeCallback;
+    const licenseChecker = devModeCallback && devModeCallback['vaadin-license-checker'];
+    if (typeof licenseChecker === 'function') {
+      licenseChecker(VcfPasswordStrength);
+    }
+  }
+
   static get observers() {
     return ['_strengthChanged(strength, _bars.splices)'];
   }
@@ -124,7 +139,3 @@ customElements.define(VcfPasswordStrength.is, VcfPasswordStrength);
  * @namespace Vaadin
  */
 window.Vaadin.VcfPasswordStrength = VcfPasswordStrength;
-
-if (window.Vaadin.runIfDevelopmentMode) {
-  window.Vaadin.runIfDevelopmentMode('vaadin-license-checker', VcfPasswordStrength);
-}
